@@ -1,0 +1,203 @@
+/* Dashboard Layout */
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+  background: linear-gradient(to right, #FFCC70, #FF8C00);
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  background: rgba(0, 0, 0, 0.85);
+  color: #FFA500;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-right: 3px solid #FFA500;
+}
+
+.profile-section {
+  margin-bottom: 20px;
+}
+
+.profile-pic {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: url('empty-profile.png') no-repeat center;
+  background-size: cover;
+  border: 3px solid #FFA500;
+}
+
+.user-name {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.app-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #FFA500;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 15px 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #FFA500;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 8px 15px;
+  display: block;
+  transition: 0.3s;
+  border-radius: 8px;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  background: #FFA500;
+  color: #000;
+}
+
+/* Logout Button */
+.logout-btn {
+  margin-top: auto;
+  background: #D84315;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.logout-btn:hover {
+  background: #BF360C;
+}
+
+/* Main Content */
+.dashboard-content {
+  flex: 1;
+  padding: 40px;
+  text-align: center;
+  overflow-y: auto;
+  color: #000;
+}
+
+/* Home Section */
+.home-section h2 {
+  font-size: 26px;
+  font-weight: bold;
+  color: #D84315;
+  margin-bottom: 15px;
+}
+
+.home-section p {
+  font-size: 18px;
+  color: #444;
+  line-height: 1.6;
+}
+
+/* Spiritual Experience Section */
+.spiritual-experience {
+  margin-top: 30px;
+  background: rgba(255, 140, 0, 0.2);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.spiritual-experience h2 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #D84315;
+}
+
+.spiritual-experience p {
+  font-size: 17px;
+  color: #333;
+  font-style: italic;
+}
+
+/* Points Tracker */
+.points-tracker {
+  margin-top: 30px;
+  padding: 20px;
+  background: #FFF3E0;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.points-text {
+  font-size: 20px;
+  font-weight: bold;
+  color: #D84315;
+}
+
+.points-bar {
+  width: 100%;
+  height: 10px;
+  background: #FFA500;
+  border-radius: 10px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.points-fill {
+  height: 100%;
+  background: #D84315;
+  transition: width 0.5s ease-in-out;
+}
+
+/* Scrollbar Styling */
+.dashboard-content::-webkit-scrollbar {
+  width: 8px;
+}
+
+.dashboard-content::-webkit-scrollbar-thumb {
+  background: #FFA500;
+  border-radius: 10px;
+}
+
+.dashboard-content::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+
+.logout-btn {
+  margin-top: auto;
+  background: white;
+  color: #e65100;
+  font-weight: bold;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s;
+}
+
+.logout-btn:hover {
+  background: #ffcc80;
+  color: #bf360c;
+}
