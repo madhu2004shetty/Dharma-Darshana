@@ -1,70 +1,110 @@
-# Getting Started with Create React App
+## 🕉️ Dharma Darshana 
+- A Sacred & Sustainable Pilgrimage Experience 🛕🚩
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A devotional reward-based application that promotes environmental awareness by encouraging devotees to collect plastic waste and earn points to redeem fast-track darshan passes and other spiritual benefits.
 
-## Available Scripts
 
-In the project directory, you can run:
+## ✨ Features
 
-### `npm start`
+- Authentication: Login, Sign-up with Google, and secure authentication.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- QR Code Scanner: Scan QR codes to track plastic waste collection.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Rewards System: Earn and redeem points for exclusive devotional benefits.
 
-### `npm test`
+- Live Dashboard: Track points, activities, and environmental contributions.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Traditional Themed UI: Saffron (Kesari) color theme with a spiritually enriching experience.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🎁 Reward System
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Earn Points: Collect plastic waste & scan QR codes.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Redeem Rewards: Fast-track darshan passes, devotional gifts.
 
-### `npm run eject`
+- Claim Pass: If points ≥ 100, claim your free pass 🎟️.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🚀 Tech Stack
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+** Frontend **
+- React.js (with Framer Motion for animations)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Tailwind CSS & Custom Traditional UI Design
 
-## Learn More
+- Streamlit (for initial prototype development)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+** Backend & Database **
+- Firebase Firestore (User data & points storage)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Firebase Authentication (User login & security)
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📌 Installation & Setup
 
-### Analyzing the Bundle Size
+1️⃣ Clone the Repository
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+    git clone https://github.com/itsshashankr14/gog_challenge.git
+    cd gog_challenge
+    cd dharma-darshana
 
-### Making a Progressive Web App
+```
+2️⃣ Install Dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash 
+    npm install
+    npm install react react-dom react-router-dom
+    npm install @mui/material @emotion/react @emotion/styled
+    npm install tailwindcss framer-motion
+    npm install react-icons
+    npm install html5-qrcode
+    npm install firebase
 
-### Advanced Configuration
+```
+🚀 Install Everything in One Command
+```bash
+    npm install react react-dom react-router-dom @mui/material @emotion/react @emotion/styled tailwindcss framer-motion react-icons html5-qrcode react-qr-reader opencv.js firebase axios
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+3️⃣ Configure Firebase
 
-### Deployment
+- Create a Firebase project and enable Authentication & Firestore Database.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Copy your Firebase config and replace it in src/firebase.js.
 
-### `npm run build` fails to minify
+4️⃣ Run the Project
+```bash
+    npm start
+```
+Your app will be live at http://localhost:3000 🚀
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+    
+## 🔗 Contribution
+
+Contributions are always welcome!
+
+Want to improve Dharma Darshana? Feel free to contribute!
+
+Steps to Contribute
+1. Fork the repository 🍴
+2. Create a new branch 🛠️
+```bash
+    git checkout -b feature-new
+```
+3. Make changes & commit 💾
+```bash
+    git commit -m "Added new feature"
+```
+
+4. Push to GitHub & Open a PR 🚀
+```bash
+    git push origin feature-new
+```
+
+## Support
+
+For support, email rshashank2356@gmail.com or join our Slack channel.
+
